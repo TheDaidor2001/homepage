@@ -164,8 +164,16 @@ body {
 }
 
 .skills__text {
-    color: var(--secondary-text-color);
-    text-align: justify;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.skills__text__logo {
+    width: auto;
+    height: 50px;
+    object-fit: cover;
 }
 
 .experiences {
@@ -260,4 +268,14 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+
+.questions {}
+
+
+.questions__header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 15px;
 }
